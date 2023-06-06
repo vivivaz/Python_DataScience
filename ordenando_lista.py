@@ -6,7 +6,6 @@ print(lista)
 lista_ordenada = []
 n = len(lista)
 
-
 def m(lista):
   x = lista[0]
   for i in lista:
