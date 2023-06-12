@@ -9,9 +9,7 @@ def Bubble_Sort(lista):
     while a != 0:
         for i in range(a):
             if lista[i] > lista[i+1]:
-                x = lista[i]
-                lista[i] = lista[i+1]
-                lista[i+1] = x
+                lista[i], lista[i+1] = lista[i+1], lista[i]
         a -= 1
     print(lista)
 
