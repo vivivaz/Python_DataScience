@@ -43,4 +43,3 @@ if '_' in letras:
 else:
     print('voce ganhou, parabens!')
 print('Fim de jogo!')
-# criar uma inteligencia artificial (chat gpt) que recebe uma base de dados e responde perguntas sobre os dados, automatiza análise exploratória
