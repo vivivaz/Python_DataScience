@@ -87,8 +87,8 @@ class Hangman:
           print(f'voce tem {self.tam} tentativas.')
           print(self.letras)
 
-	# Método para adivinhar a letra
-     def adivinha_letra(self):
+	# Método para adivinhar a palavra
+     def adivinha_palavra(self):
           n = 0
           while self.tam != 0:
                if '_' not in self.letras:
@@ -121,6 +121,6 @@ class Hangman:
 
 clear()
 jogo1 = Hangman()
-jogo1.adivinha_letra()
+jogo1.adivinha_palavra()
 jogo1.resultado()
 
